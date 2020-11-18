@@ -4,7 +4,8 @@ int main(){
 int i,j;
 int n;
 while(1){    
-scanf("Height: %d",&n);
+printf("Height: ");
+scanf("%d",&n);
     if (9>n&&n>0)
         break;
 }

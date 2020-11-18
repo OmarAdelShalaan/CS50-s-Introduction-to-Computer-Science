@@ -3,9 +3,10 @@
 int main(){
 int i,j;
 int n;
-while(1){    
-scanf("Height: %d",&n);
-    if (9>n&&n>0)
+while(1){
+    printf("Height: ");
+scanf("%d",&n);
+if (9>n&&n>0)
         break;
 }
 for(i=0;i<n;i++)
